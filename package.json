@@ -1,14 +1,36 @@
 {
   "name": "jt-chat-front",
+  "keywords": [
+    "react",
+    "chat",
+    "real-time",
+    "typescript",
+    "messaging",
+    "channels",
+    "chat-application",
+    "vite"
+  ],
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "license": "MIT",
+  "author": "Jair Torres",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JairTorres1003/JT-Chat-Frontend"
+  },
+  "bugs": {
+    "url": "https://github.com/JairTorres1003/JT-Chat-Frontend/issues"
+  },
+  "homepage": "https://github.com/JairTorres1003/JT-Chat-Frontend#readme",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "format": "prettier --write 'src/**/*.{ts,tsx}'"
+    "lint:fix": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0 --fix",
+    "format:check": "prettier --check \"**/*.{ts,tsx,json,css,md,cjs}\"",
+    "format": "prettier --write \"**/*.{ts,tsx,json,css,md,cjs}\""
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -20,7 +42,14 @@
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "@vitejs/plugin-react-swc": "^3.3.2",
-    "eslint": "^8.45.0",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard-with-typescript": "^40.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "prettier": "^3.0.3",
