@@ -33,8 +33,18 @@
     "format": "prettier --write \"**/*.{ts,tsx,json,css,md,cjs}\""
   },
   "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.4",
+    "@reduxjs/toolkit": "^2.0.1",
+    "i18next": "^23.7.16",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-i18next": "^14.0.0",
+    "react-middle-ellipsis": "^1.2.2",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.21.2",
+    "redux-logger": "^3.0.6"
   },
   "devDependencies": {
     "@types/react": "^18.2.42",
